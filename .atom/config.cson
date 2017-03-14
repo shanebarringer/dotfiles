@@ -1,5 +1,4 @@
 "*":
-  "aligner-ruby": {}
   "atom-beautify":
     general:
       _analyticsUserId: "8fe6e1f7-5436-4242-830a-ce31611ed9cc"
@@ -76,14 +75,17 @@
       "react"
       "autocomplete-ruby"
       "linter-haml"
+      "about"
+      "symbols-view"
     ]
     excludeVcsIgnoredPaths: false
     followSymlinks: false
     packagesWithKeymapsDisabled: [
       "atom-terminal-panel"
     ]
+    telemetryConsent: "no"
     themes: [
-      "unity-ui"
+      "seti-ui"
       "elly-syntax"
     ]
   "ctags-status": {}
@@ -138,6 +140,9 @@
   "ruby-block-converter": {}
   "ruby-debugger": {}
   "ruby-test": {}
+  "seti-ui":
+    compactView: true
+    themeColor: "Orange"
   "spell-check": {}
   "status-bar": {}
   tabs:
