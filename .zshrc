@@ -6,6 +6,8 @@ export ZSH=/Users/shane/.oh-my-zsh
 # Optionally, if you set this to "random", it'll load a random theme each
 # time that oh-my-zsh is loaded.
 ZSH_THEME="miloshadzic"
+#
+# ZSH_THEME="random"
 
 # Uncomment the following line to use case-sensitive completion.
 # CASE_SENSITIVE="true"
@@ -50,7 +52,7 @@ ZSH_THEME="miloshadzic"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 
-plugins=(git git-extras heroku rails web-search ruby rbenv rake github osx colorize see)
+plugins=(git git-extras heroku rails web-search ruby rbenv rake github osx colorize see gitfast history jsontools node osx web-search safe-paste npm zsh-bash)
 
 # User configuration
 
@@ -101,3 +103,4 @@ export NVM_DIR="/Users/shane/.nvm"
 
 # adds selenium webdrive to path
 export PATH="$PATH:/Users/shane/webdrivers"
+export PATH="/usr/local/sbin:$PATH"
