@@ -19,3 +19,44 @@
 # If you are unfamiliar with CSON, you can read more about it in the
 # Atom Flight Manual:
 # http://flight-manual.atom.io/using-atom/sections/basic-customization/#_cson
+
+'.source.asciidoc':
+  'JavaScript Example':
+    'prefix': 'js'
+    'body': """
+    [source, javascript, linenums]
+    .JavaScript
+    ----
+
+    ----
+    """
+
+  'Shell Example':
+    'prefix': 'shell'
+    'body': """
+    [source, shell]
+    ----
+
+    ----
+    """
+
+  'JavaScript-Include':
+    'prefix': 'js-include'
+    'body': """
+      .JavaScript
+      [source,javascript,linenums]
+      ----
+      include::${1:main.js}[${1}]
+      ----
+    """
+
+
+  'JSX':
+    'prefix': 'jsx'
+    'body': """
+    [source, jsx, linenums]
+    .jsx
+    ----
+
+    ----
+    """

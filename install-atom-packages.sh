@@ -23,10 +23,9 @@ autoclose-html
 autocomplete-asciidoc
 autocomplete-json
 autocomplete-modules
-chipmunk-syntax
+brower-refresh
 color-picker
 docker
-elly-syntax
 file-icons
 git-diff-popup
 language-asciidoc
@@ -37,8 +36,9 @@ linter-eslint
 linter-jsonlint
 linter-pug
 linter-ruby
+markdown-preview-plus
 markdown-writer
-material-ui
+open-in-browser
 merge-conflicts
 monokai-seti
 open-recent
@@ -49,7 +49,6 @@ react
 seti-ui
 tree-view-git-branch
 tree-view-git-status
-visualize-dark-syntax
 "
 
 for PACKAGE in $PACKAGES
