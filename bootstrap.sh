@@ -17,7 +17,9 @@ brew bundle
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
-# 
+# install current node versions
+nvm install node
+nvm use node
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
