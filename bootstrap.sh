@@ -1,6 +1,6 @@
 #!/bin/sh
 
-echo "Setting up your Machine..."
+echo "Setting up Machine..."
 
 # Check for Homebrew and install if we don't have it
 if test ! $(which brew); then
@@ -17,8 +17,7 @@ brew bundle
 # Make ZSH the default shell environment
 chsh -s $(which zsh)
 
-# Install global NPM packages
-npm install --global yarn
+# 
 
 # Set macOS preferences
 # We will run this last because this will reload the shell
