@@ -1,68 +1,19 @@
 # Path to your oh-my-zsh installation.
 export ZSH=/Users/shane/.oh-my-zsh
 
-# Set name of the theme to load.
-# Look in ~/.oh-my-zsh/themes/
-# Optionally, if you set this to "random", it'll load a random theme each
-# time that oh-my-zsh is loaded.
+# theme
 ZSH_THEME="miloshadzic"
-#
-# ZSH_THEME="random"
 
-# Uncomment the following line to use case-sensitive completion.
-# CASE_SENSITIVE="true"
+# show waiting dots
+COMPLETION_WAITING_DOTS="true"
 
-# Uncomment the following line to use hyphen-insensitive completion. Case
-# sensitive completion must be off. _ and - will be interchangeable.
-# HYPHEN_INSENSITIVE="true"
-
-# Uncomment the following line to disable bi-weekly auto-update checks.
-# DISABLE_AUTO_UPDATE="true"
-
-# Uncomment the following line to change how often to auto-update (in days).
-# export UPDATE_ZSH_DAYS=13
-
-# Uncomment the following line to disable colors in ls.
-# DISABLE_LS_COLORS="true"
-
-# Uncomment the following line to disable auto-setting terminal title.
-# DISABLE_AUTO_TITLE="true"
-
-# Uncomment the following line to enable command auto-correction.
-# ENABLE_CORRECTION="true"
-
-# Uncomment the following line to display red dots whilst waiting for completion.
- COMPLETION_WAITING_DOTS="true"
-
-# Uncomment the following line if you want to disable marking untracked files
-# under VCS as dirty. This makes repository status check for large repositories
-# much, much faster.
-# DISABLE_UNTRACKED_FILES_DIRTY="true"
-
-# Uncomment the following line if you want to change the command execution time
-# stamp shown in the history command output.
-# The optional three formats: "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
-# HIST_STAMPS="mm/dd/yyyy"
-
-# Would you like to use another custom folder than $ZSH/custom?
-# ZSH_CUSTOM=/path/to/new-custom-folder
-
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-
+# zsh plugins
 plugins=(git git-extras heroku rails web-search ruby rbenv rake github osx colorize see gitfast history jsontools node osx web-search safe-paste npm zsh-bash)
 
-# User configuration
+#### User configuration ####
 
-# export PATH="/Users/shane/.rvm/gems/ruby-2.2.0/bin:/Users/shane/.rvm/gems/ruby-2.2.0@global/bin:/Users/shane/.rvm/rubies/ruby-2.2.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/shane/.rvm/bin"
-# export MANPATH="/usr/local/man:$MANPATH"
-
+# set source
 source $ZSH/oh-my-zsh.sh
-
-alias cat="pygmentize -O encoding=UTF-8 -g"
-alias see='pygmentize -O style=monokai -f console256 -g'
 
 ###### HUB CONFIG #######
 
@@ -71,36 +22,25 @@ eval "$(hub alias -s)"
 
 ###### END HUB CONFIG ######
 
-# You may need to manually set your language environment
-# export LANG=en_US.UTF-8
-
-# Preferred editor for local and remote sessions
-# if [[ -n $SSH_CONNECTION ]]; then
-#   export EDITOR='vim'
-# else
-#   export EDITOR='mvim'
-# fi
-
-# Compilation flags
-# export ARCHFLAGS="-arch x86_64"
-
-# ssh
-# export SSH_KEY_PATH="~/.ssh/dsa_id"
-
-# Set personal aliases, overriding those provided by oh-my-zsh libs,
-# plugins, and themes. Aliases can be placed here, though oh-my-zsh
-# users are encouraged to define aliases within the ZSH_CUSTOM folder.
-# For a full list of active aliases, run `alias`.
-#
-# Example aliases
-# alias zshconfig="mate ~/.zshrc"
-# alias ohmyzsh="mate ~/.oh-my-zsh"
+# path to rbenv
 export PATH="/usr/local/sbin:$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+# path to nvm
 export NVM_DIR="/Users/shane/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 
-# adds selenium webdrive to path
+# adds selenium webdriver to path
 export PATH="$PATH:/Users/shane/webdrivers"
 export PATH="/usr/local/sbin:$PATH"
+
+# ugggg... Mongo...
+export PATH="/data/db/bin:$PATH"
+
+# Aliases
+
+## GitHub personal
+alias gitmeHome='git config user.email shane.barringer@outlook.com'
+
+## GitHub work
+alias gitmeWork='git config user.email shane_barringer@homedepot.com'
