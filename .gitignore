@@ -1,8 +1,1 @@
-.gitconfig
-.bash_history
-.irb_history
-.node_repl_history
-.zcompdump-C02T653VGY25MBP-5.2
-.zsh_history
-.zsh-update
-.zshrc.pre-oh-my-zsh
+.atom/packages/*
