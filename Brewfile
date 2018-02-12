@@ -3,10 +3,7 @@ tap "cloudfoundry/tap"
 tap "homebrew/boneyard"
 tap "homebrew/bundle"
 tap "homebrew/core"
-tap "homebrew/dupes"
 tap "homebrew/services"
-tap "homebrew/versions"
-
 
 cask "xquartz"
 brew "autoconf"
@@ -67,7 +64,6 @@ brew "rbenv"
 brew "redis", restart_service: true
 brew "sane-backends"
 brew "tree"
-brew "unfs3"
 brew "watch"
 brew "wine"
 brew "yadm"
