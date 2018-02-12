@@ -1,5 +1,5 @@
 # Path to your oh-my-zsh installation.
-export ZSH=/Users/shane/.oh-my-zsh
+export ZSH=/Users/${USER}/.oh-my-zsh
 
 # theme
 ZSH_THEME="miloshadzic"
@@ -27,11 +27,11 @@ export PATH="/usr/local/sbin:$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
 # path to nvm
-export NVM_DIR="/Users/shane/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+export NVM_DIR="/Users/${USER}/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
 
 # adds selenium webdriver to path
-export PATH="$PATH:/Users/shane/webdrivers"
+export PATH="$PATH:/Users/${USER}/webdrivers"
 export PATH="/usr/local/sbin:$PATH"
 
 # ugggg... Mongo...
