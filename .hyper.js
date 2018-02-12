@@ -13,7 +13,7 @@ module.exports = {
     cursorShape: 'BEAM',
 
     // color of the text
-    foregroundColor: '#00B16A',
+    foregroundColor: '#39ff14',
 
     // terminal background color
     backgroundColor: '#000',
@@ -81,25 +81,22 @@ module.exports = {
   // examples:
   //   `hyperpower`
   //   `@company/project`
-  //   `project#1.0.1`h
+  //   `project#1.0.1`
   plugins: [
     // "hypernasa",
-    "hyperterm-paste",
-    "hyperlinks",
-    "hyperterm-tab-icons",
-    "hyperterm-install-devtools",
-    "hyperlayout",
-    "hyperterm-overlay",
-    "hyper-statusline",
-    "hyperterm-tabs",
-    "hyperterm-dibdabs",
-    "hypergoogle",
-    "hyperdocs",
+    "hyperterm-paste", 
+    "hyperlinks", 
+    "hyperterm-tab-icons", 
+    "hyperterm-install-devtools", 
+    "hyperlayout", 
+    "hyperterm-overlay", 
+    "hyper-statusline", 
+    "hyperterm-tabs", 
+    "hyperterm-dibdabs", 
+    "hypergoogle", 
+    "hyperdocs", 
     "hyper-quit",
-    "hyper-ramda",
     "gitrocket"
-    // "hyper-ninja"
-    // "hyper-darkwater"
   ],
 
   // in development, you can create a directory under
