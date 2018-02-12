@@ -8,11 +8,11 @@
       "tmp/**"
     ]
     jshint:
-      path: "/Users/shane/.rbenv/shims/jshint"
+      path: "/Users/${USER}/.rbenv/shims/jshint"
     rubocop:
-      path: "/Users/shane/.rbenv/shims/rubocop"
+      path: "/Users/${USER}/.rbenv/shims/rubocop"
     "scss-lint":
-      path: "/Users/shane/.rbenv/shims/scss-lint"
+      path: "/Users/${USER}/.rbenv/shims/scss-lint"
     showViolationMetadata: true
   "atom-pair":
     slack_url: "https://hooks.slack.com/services/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"
@@ -101,28 +101,27 @@
     supportLintingJsx: true
   "language-babel":
     autoIndentJSX: true
-  linter:
-    errorPanelHeight: 24
+  linter: {}
   "linter-bootlint": {}
   "linter-erb":
-    erbExecutablePath: "/Users/shane/.rbenv/shims/erb"
+    erbExecutablePath: "/Users/${USER}/.rbenv/shims/erb"
   "linter-haml":
     copyRubocopYml: false
-    hamlLintExecutablePath: "/Users/shane/.rbenv/shims/haml-lint"
+    hamlLintExecutablePath: "/Users/${USER}/.rbenv/shims/haml-lint"
   "linter-htmlhint": {}
   "linter-jshint":
     disableWhenNoJshintrcFileInPath: true
     esversion: 6
-    executablePath: "/Users/shane/.rbenv/shims/jshint"
+    executablePath: "/Users/${USER}/.rbenv/shims/jshint"
     lintInlineJavaScript: false
   "linter-jsxhint":
     harmony: true
   "linter-rubocop":
-    command: "/Users/shane/.rbenv/shims/rubocop"
+    command: "/Users/${USER}/.rbenv/shims/rubocop"
   "linter-ruby":
-    rubyExecutablePath: "/Users/shane/.rbenv/shims/ruby"
+    rubyExecutablePath: "/Users/${USER}/.rbenv/shims/ruby"
   "linter-scss-lint":
-    executablePath: "/Users/shane/.rbenv/shims/scss-lint"
+    executablePath: "/Users/${USER}/.rbenv/shims/scss-lint"
   "linter-tidy": {}
   "markdown-preview": {}
   "markdown-writer": {}
@@ -134,7 +133,7 @@
     command: "bundle exec rspec"
   "rubocop-auto-correct":
     correctFile: true
-    rubocopCommandPath: "/Users/shane/.rbenv/shims/rubocop"
+    rubocopCommandPath: "/Users/${USER}/.rbenv/shims/rubocop"
   "ruby-block":
     highlightLineNumber: true
   "ruby-block-converter": {}
