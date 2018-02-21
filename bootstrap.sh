@@ -19,7 +19,8 @@ brew bundle
 echo "Installing oh-my-zsh"
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
-cp .zshrc.pre-oh-my-zsh .zshrc
+sudo cp .zshrc.pre-oh-my-zsh .zshrc
+sudo chown -R ${USER} .oh-my-zsh .zsh*   
 
 echo "Changing Shell to ZSH"
 chsh -s $(which zsh)
