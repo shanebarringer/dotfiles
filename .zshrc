@@ -25,13 +25,13 @@ ZSH="$(antibody home)/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SL
 
 ## bundle plugins using antibody
 antibody bundle "
-  ${ZSH} path:plugins/osx 
-  ${ZSH} path:plugins/gitfast 
-  ${ZSH} path:plugins/jsontools 
-  ${ZSH} path:plugins/node 
-  ${ZSH} path:plugins/safe-paste 
-  ${ZSH} path:plugins/npm 
-  ${ZSH} path:plugins/brew 
+  ${ZSH}/plugins/osx
+  ${ZSH}/plugins/gitfast 
+  ${ZSH}/plugins/jsontools 
+  ${ZSH}/plugins/node 
+  ${ZSH}/plugins/safe-paste 
+  ${ZSH}/plugins/npm 
+  ${ZSH}/plugins/brew 
   ${ZSH_CUSTOM}/plugins/zsh-nvm
   ${ZSH_CUSTOM}/plugins/zsh-bash 
   ${ZSH_CUSTOM}/plugins/zsh-you-should-use
