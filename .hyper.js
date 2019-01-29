@@ -82,22 +82,8 @@ module.exports = {
   //   `hyperpower`
   //   `@company/project`
   //   `project#1.0.1`
-  plugins: [
-    // "hypernasa",
-    "hyperterm-paste", 
-    "hyperlinks", 
-    "hyperterm-tab-icons", 
-    "hyperterm-install-devtools", 
-    "hyperlayout", 
-    "hyperterm-overlay", 
-    "hyper-statusline", 
-    "hyperterm-tabs", 
-    "hyperterm-dibdabs", 
-    "hypergoogle", 
-    "hyperdocs", 
-    "hyper-quit",
-    "gitrocket"
-  ],
+  plugins: [// "hypernasa",
+  "hyperterm-paste", "hyperlinks", "hyperterm-tab-icons", "hyperterm-install-devtools", "hyperlayout", "hyperterm-overlay", "hyper-statusline", "hyperterm-tabs", "hyperterm-dibdabs", "hypergoogle", "hyperdocs", "hyper-quit", "gitrocket"],
 
   // in development, you can create a directory under
   // `~/.hyper_plugins/local/` and include it here
