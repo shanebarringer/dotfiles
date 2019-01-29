@@ -8,7 +8,9 @@ ZSH_THEME="miloshadzic"
 COMPLETION_WAITING_DOTS="true"
 
 # zsh plugins
-plugins=(git git-extras heroku rails web-search ruby rbenv rake github osx colorize see gitfast history jsontools node osx web-search safe-paste npm zsh-bash asciidoctor you-should-use yadm zsh-syntax-highlighting vscode mysql-colorize fast-syntax-highlighting zsh-autosuggestions zsh-256color fly cf brew zsh-brew-services)
+plugins=(git git-extras heroku rails web-search ruby rbenv rake github osx colorize see gitfast history jsontools node osx web-search safe-paste npm zsh-bash asciidoctor you-should-use yadm zsh-syntax-highlighting vscode mysql-colorize fast-syntax-highlighting zsh-256color fly cf brew zsh-brew-services)
+
+# zsh-autosuggestions <-- add back if duplication is not stopped
 
 #### User configuration ####
 
@@ -55,7 +57,7 @@ load-nvmrc
 
 # adds selenium webdriver to path
 export PATH="$PATH:/Users/${USER}/webdrivers"
-export PATH="/usr/local/sbin:$PATH"
+export PATH="/usr/local/sbin:$PATH"bno
 
 # ugggg... Mongo...
 export PATH="/data/db/bin:$PATH"
@@ -80,3 +82,15 @@ alias npm-public='npm config set registry https://registry.npmjs.org && npm logi
 alias npm-work='npm config set registry https://npm.artifactory.homedepot.com/artifactory/api/npm/npm/ && npm login'
 
 [ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# The next line updates PATH for the Google Cloud SDK.
+if [ -f '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# The next line enables shell command completion for gcloud.
+if [ -f '/Users/mxb5594/Downloads/google-cloud-sdk/completion.zsh.inc' ]; then source '/Users/mxb5594/Downloads/google-cloud-sdk/completion.zsh.inc'; fi
+
+alias js-labs-start='docker-compose up --build -d'
+alias js-labs-login='docker-compose exec js-labs bash'
+alias js-labs-start='docker-compose up --build -d'
+alias js-labs-login='docker-compose exec js-labs bash'
+alias js-labs-stop='docker-compose down'
