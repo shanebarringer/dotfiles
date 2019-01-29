@@ -12,7 +12,7 @@
 ~h
 # Command Line History (newest to oldest):
 :wq
-|2,0,1548552668,,"wq"
+|2,0,1548803124,,"wq"
 :q!
 |2,0,1547046999,,"q!"
 :q
@@ -68,32 +68,40 @@
 |3,1,36,0,1,0,1538662373,"p"
 
 # File marks:
-'0  2  0  ~/playground/js-katas/.git/rebase-merge/git-rebase-todo
-|4,48,2,0,1548552668,"~/playground/js-katas/.git/rebase-merge/git-rebase-todo"
-'1  1  0  ~/playground/js-katas/.git/rebase-merge/git-rebase-todo
-|4,49,1,0,1548552649,"~/playground/js-katas/.git/rebase-merge/git-rebase-todo"
+'0  1  0  ~/.yadm/repo.git/COMMIT_EDITMSG
+|4,48,1,0,1548803124,"~/.yadm/repo.git/COMMIT_EDITMSG"
+'1  2  0  ~/playground/js-katas/.git/rebase-merge/git-rebase-todo
+|4,49,2,0,1548552668,"~/playground/js-katas/.git/rebase-merge/git-rebase-todo"
 '2  1  0  ~/playground/js-katas/.git/rebase-merge/git-rebase-todo
 |4,50,1,0,1548552649,"~/playground/js-katas/.git/rebase-merge/git-rebase-todo"
-'3  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
-|4,51,1,0,1547047052,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
-'4  4  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
-|4,52,4,0,1547047043,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
-'5  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
-|4,53,1,0,1547046999,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+'3  1  0  ~/playground/js-katas/.git/rebase-merge/git-rebase-todo
+|4,51,1,0,1548552649,"~/playground/js-katas/.git/rebase-merge/git-rebase-todo"
+'4  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,52,1,0,1547047052,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+'5  4  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,53,4,0,1547047043,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
 '6  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
 |4,54,1,0,1547046999,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
-'7  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
-|4,55,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
-'8  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,56,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
-'9  1  0  ~/curriculum/project-3/.git/rebase-merge/git-rebase-todo
-|4,57,1,0,1546880376,"~/curriculum/project-3/.git/rebase-merge/git-rebase-todo"
+'7  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,55,1,0,1547046999,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+'8  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,56,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+'9  1  0  ~/curriculum/project-3/.git/MERGE_MSG
+|4,57,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
 
 # Jumplist (newest first):
+-'  1  0  ~/.yadm/repo.git/COMMIT_EDITMSG
+|4,39,1,0,1548803124,"~/.yadm/repo.git/COMMIT_EDITMSG"
+-'  2  0  ~/playground/js-katas/.git/rebase-merge/git-rebase-todo
+|4,39,2,0,1548552668,"~/playground/js-katas/.git/rebase-merge/git-rebase-todo"
 -'  2  0  ~/playground/js-katas/.git/rebase-merge/git-rebase-todo
 |4,39,2,0,1548552668,"~/playground/js-katas/.git/rebase-merge/git-rebase-todo"
 -'  1  0  ~/playground/js-katas/.git/rebase-merge/git-rebase-todo
 |4,39,1,0,1548552661,"~/playground/js-katas/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/playground/js-katas/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1548552661,"~/playground/js-katas/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/playground/js-katas/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1548552649,"~/playground/js-katas/.git/rebase-merge/git-rebase-todo"
 -'  1  0  ~/playground/js-katas/.git/rebase-merge/git-rebase-todo
 |4,39,1,0,1548552649,"~/playground/js-katas/.git/rebase-merge/git-rebase-todo"
 -'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
@@ -104,6 +112,30 @@
 |4,39,1,0,1547047052,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
 -'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
 |4,39,1,0,1547047052,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1547047052,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1547047052,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1547047052,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1547047052,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  4  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,4,0,1547047043,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  4  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,4,0,1547047043,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  4  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,4,0,1547047043,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  4  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,4,0,1547047043,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  4  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,4,0,1547047043,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  4  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,4,0,1547047043,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  4  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,4,0,1547047043,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  4  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,4,0,1547047043,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
 -'  4  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
 |4,39,4,0,1547047043,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
 -'  4  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
@@ -136,6 +168,38 @@
 |4,39,1,0,1547047002,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
 -'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
 |4,39,1,0,1547047002,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1547047002,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1547047002,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1547047002,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1547047002,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1547047002,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1547047002,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1547047002,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1547047002,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1547046999,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1547046999,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1547046999,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1547046999,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1547046999,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1547046999,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1547046999,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
+|4,39,1,0,1547046999,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
 -'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
 |4,39,1,0,1547046999,"~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo"
 -'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/rebase-merge/git-rebase-todo
@@ -184,102 +248,38 @@
 |4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
 -'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
 |4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
--'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
-|4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
+-'  1  0  ~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG
+|4,39,1,0,1546970156,"~/curriculum/Pillar-Intermediate-React/.git/COMMIT_EDITMSG"
 -'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
 |4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
 -'  1  0  ~/curriculum/project-3/.git/MERGE_MSG
@@ -292,6 +292,10 @@
 |4,39,1,0,1546880406,"~/curriculum/project-3/.git/MERGE_MSG"
 
 # History of marks within files (newest to oldest):
+
+> ~/.yadm/repo.git/COMMIT_EDITMSG
+	*	1548803116	0
+	"	1	0
 
 > ~/playground/js-katas/.git/rebase-merge/git-rebase-todo
 	*	1548552666	0
