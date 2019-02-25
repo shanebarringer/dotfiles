@@ -77,10 +77,18 @@ export PATH="$PATH:$GOPATH/bin"
 alias gitmeHome='git config user.email shane.barringer@outlook.com'
 ## GitHub work
 alias gitmeWork='git config user.email shane_barringer@homedepot.com'
-## npm public
+
+## npm
+
+### npm ssl
+alias npm-ssl-true='npm config set strict-ssl true && yarn config set strict-ssl true'
+alias npm-ssl-false='npm config set strict-ssl false && yarn config set strict-ssl false'
+
+### npm public
 alias npm-public='npm config set registry https://registry.npmjs.org && npm login'
-## npm work
-alias npm-work='npm config set registry https://npm.artifactory.homedepot.com/artifactory/api/npm/npm/ && npm login'
+
+### npm work
+alias npm-work='npm config set registry https://npm.artifactory.homedepot.com/artifactory/api/npm/npm/ && npm login && npm-ssl-false'
 
 # updates PATH for the Google Cloud SDK.
 if [ -f '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc'; fi
