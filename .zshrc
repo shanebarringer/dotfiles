@@ -82,8 +82,5 @@ alias npm-public='npm config set registry https://registry.npmjs.org && npm logi
 ## npm work
 alias npm-work='npm config set registry https://npm.artifactory.homedepot.com/artifactory/api/npm/npm/ && npm login'
 
-# loads nvm bash_completion
-[ -s "$NVM_DIR/bash_completion" ] && . "$NVM_DIR/bash_completion"  \
-
 # updates PATH for the Google Cloud SDK.
 if [ -f '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc'; fi
