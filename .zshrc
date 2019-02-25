@@ -1,10 +1,6 @@
 # Path to oh-my-zsh installation.
 export ZSH=/Users/${USER}/.oh-my-zsh
 
-# zsh-nvm settings
-export NVM_LAZY_LOAD=true
-export NVM_AUTO_USE=true
-
 # theme
 ZSH_THEME="miloshadzic"
 
@@ -32,7 +28,6 @@ antibody bundle "
   ${ZSH}/plugins/safe-paste 
   ${ZSH}/plugins/npm 
   ${ZSH}/plugins/brew 
-  ${ZSH_CUSTOM}/plugins/zsh-nvm
   ${ZSH_CUSTOM}/plugins/zsh-bash 
   ${ZSH_CUSTOM}/plugins/zsh-you-should-use
   ${ZSH_CUSTOM}/plugins/yadm-zsh
@@ -52,10 +47,9 @@ eval "$(hub alias -s)"
 export PATH="/usr/local/sbin:$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# path to nvm
-export NVM_DIR="/Users/${USER}/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
-
+# sets up fnm
+export PATH=$HOME/.fnm:$PATH
+eval `fnm env --multi`
 
 # adds selenium webdriver to path
 export PATH="$PATH:/Users/${USER}/webdrivers"
@@ -93,4 +87,3 @@ alias npm-work='npm config set registry https://npm.artifactory.homedepot.com/ar
 
 # updates PATH for the Google Cloud SDK.
 if [ -f '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-
