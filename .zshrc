@@ -45,6 +45,9 @@ eval "$(rbenv init -)"
 export PATH=$HOME/.fnm:$PATH
 eval `fnm env --multi`
 
+# sets up magnificent console correction app
+eval $(thefuck --alias)
+
 # adds selenium webdriver to path
 export PATH="$PATH:/Users/${USER}/webdrivers"
 export PATH="/usr/local/sbin:$PATH"
