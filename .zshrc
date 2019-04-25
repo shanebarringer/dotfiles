@@ -13,18 +13,20 @@ source $ZSH/oh-my-zsh.sh
 
 # Sets up antibody
 ## set antibody home
-ZSH="$(antibody home)/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh"
+export OM_ZSH="$(antibody home)/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh"
 
+## define custom plugin directory
+export ZSH_CUSTOM=/Users/${USER}/.oh-my-zsh/custom
 
 ## bundle plugins using antibody
 antibody bundle "
-  ${ZSH}/plugins/osx
-  ${ZSH}/plugins/gitfast 
-  ${ZSH}/plugins/jsontools 
-  ${ZSH}/plugins/node 
-  ${ZSH}/plugins/safe-paste 
-  ${ZSH}/plugins/npm 
-  ${ZSH}/plugins/brew 
+  ${OM_ZSH}/plugins/osx
+  ${OM_ZSH}/plugins/gitfast 
+  ${OM_ZSH}/plugins/jsontools 
+  ${OM_ZSH}/plugins/node 
+  ${OM_ZSH}/plugins/safe-paste 
+  ${OM_ZSH}/plugins/npm 
+  ${OM_ZSH}/plugins/brew 
   ${ZSH_CUSTOM}/plugins/zsh-bash 
   ${ZSH_CUSTOM}/plugins/zsh-you-should-use
   ${ZSH_CUSTOM}/plugins/yadm-zsh
@@ -68,8 +70,11 @@ export PATH="$PATH:/usr/local/opt/go/libexec/bin"
 # Exports `go/bin` in order to use go packages
 export PATH="$PATH:$GOPATH/bin"
 
-# updates PATH for the Google Cloud SDK.
+# updates PATH for the Google Cloud SDK
 if [ -f '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc'; fi
+
+# Sets up Github Host as default for work purposes
+export GITHUB_HOST=github.homedepot.com
 
 # Aliases
 
@@ -78,8 +83,10 @@ eval "$(hub alias -s)"
 
 ## GitHub personal
 alias gitmeHome='git config user.email shane.barringer@outlook.com'
+alias homeHost='GITHUB_HOST=github.com'
 ## GitHub work
 alias gitmeWork='git config user.email shane_barringer@homedepot.com'
+alias workHost='GITHUB_HOST=github.homedepot.com'
 
 ## npm
 ### npm ssl
