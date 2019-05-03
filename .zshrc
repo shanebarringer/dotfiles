@@ -35,6 +35,7 @@ antibody bundle "
   ${ZSH_CUSTOM}/plugins/cf
   ${ZSH_CUSTOM}/plugins/zsh-brew-services
   ${ZSH_CUSTOM}/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+  ${ZSH_CUSTOM}/plugins/buffalo
 " > ~/.zsh_plugins.sh
 
 source ~/.zsh_plugins.sh
@@ -69,6 +70,9 @@ export PATH="$PATH:/usr/local/opt/go/libexec/bin"
 
 # Exports `go/bin` in order to use go packages
 export PATH="$PATH:$GOPATH/bin"
+
+# Enable zsh completions
+fpath=(/usr/local/share/zsh-completions $fpath)
 
 # updates PATH for the Google Cloud SDK
 if [ -f '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc'; fi

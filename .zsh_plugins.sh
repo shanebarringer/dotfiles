@@ -27,3 +27,5 @@ fpath+=( /Users/mxb5594/.oh-my-zsh/custom/plugins/cf )
 source /Users/mxb5594/.oh-my-zsh/custom/plugins/zsh-brew-services/zsh-brew-services.plugin.zsh
 fpath+=( /Users/mxb5594/.oh-my-zsh/custom/plugins/zsh-brew-services )
 source /Users/mxb5594/.oh-my-zsh/custom/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /Users/mxb5594/.oh-my-zsh/custom/plugins/buffalo/buffalo.plugin.zsh
+fpath+=( /Users/mxb5594/.oh-my-zsh/custom/plugins/buffalo )
