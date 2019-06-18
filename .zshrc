@@ -24,6 +24,7 @@ export ZSH_CUSTOM=/Users/${USER}/.oh-my-zsh/custom
 ## bundle plugins using antibody
 antibody bundle "
   ${ZSH}/plugins/osx
+  ${ZSH}/plugins/git
   ${ZSH}/plugins/gitfast 
   ${ZSH}/plugins/jsontools 
   ${ZSH}/plugins/node 

@@ -1,5 +1,7 @@
 source /Users/mxb5594/.oh-my-zsh/plugins/osx/osx.plugin.zsh
 fpath+=( /Users/mxb5594/.oh-my-zsh/plugins/osx )
+source /Users/mxb5594/.oh-my-zsh/plugins/git/git.plugin.zsh
+fpath+=( /Users/mxb5594/.oh-my-zsh/plugins/git )
 source /Users/mxb5594/.oh-my-zsh/plugins/gitfast/gitfast.plugin.zsh
 fpath+=( /Users/mxb5594/.oh-my-zsh/plugins/gitfast )
 source /Users/mxb5594/.oh-my-zsh/plugins/jsontools/jsontools.plugin.zsh
