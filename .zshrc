@@ -8,25 +8,29 @@ ZSH_THEME="miloshadzic"
 COMPLETION_WAITING_DOTS="true"
 
 #### User configuration ####
+
 # source oh-my-zsh config
 source $ZSH/oh-my-zsh.sh
 
+
+## Turn off oh-my-zsh updates, let antibody handle them instead
+DISABLE_AUTO_UPDATE=true
+
 # Sets up antibody
-## set antibody home
-export OM_ZSH="$(antibody home)/https-COLON--SLASH--SLASH-github.com-SLASH-robbyrussell-SLASH-oh-my-zsh"
 
 ## define custom plugin directory
 export ZSH_CUSTOM=/Users/${USER}/.oh-my-zsh/custom
 
 ## bundle plugins using antibody
 antibody bundle "
-  ${OM_ZSH}/plugins/osx
-  ${OM_ZSH}/plugins/gitfast 
-  ${OM_ZSH}/plugins/jsontools 
-  ${OM_ZSH}/plugins/node 
-  ${OM_ZSH}/plugins/safe-paste 
-  ${OM_ZSH}/plugins/npm 
-  ${OM_ZSH}/plugins/brew 
+  ${ZSH}/plugins/osx
+  ${ZSH}/plugins/gitfast 
+  ${ZSH}/plugins/jsontools 
+  ${ZSH}/plugins/node 
+  ${ZSH}/plugins/safe-paste 
+  ${ZSH}/plugins/npm 
+  ${ZSH}/plugins/brew
+  ${ZSH}/plugins/golang
   ${ZSH_CUSTOM}/plugins/zsh-bash 
   ${ZSH_CUSTOM}/plugins/zsh-you-should-use
   ${ZSH_CUSTOM}/plugins/yadm-zsh
@@ -44,7 +48,7 @@ source ~/.zsh_plugins.sh
 export PATH="/usr/local/sbin:$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
-# sets up fnm
+# sets up Fast Node Manager (fnm)
 export PATH=$HOME/.fnm:$PATH
 eval `fnm env --multi`
 
@@ -68,7 +72,7 @@ export PATH="/usr/local/opt/python@2/libexec/bin:$PATH"
 export GOPATH=~/go
 export PATH="$PATH:/usr/local/opt/go/libexec/bin"
 
-# Exports `go/bin` in order to use go packages
+## Exports `go/bin` in order to use go packages
 export PATH="$PATH:$GOPATH/bin"
 
 # Enable zsh completions
@@ -78,10 +82,9 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 if [ -f '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 
 # Sets up Github Host as default for work purposes
-export GITHUB_HOST=github.homedepot.com
+export GITHUB_HOST=github.com
 
 # Aliases
-
 ## Aliasing hub to git
 eval "$(hub alias -s)"
 
@@ -102,3 +105,10 @@ alias npm-public='npm config set registry https://registry.npmjs.org && npm logi
 
 ### npm work
 alias npm-work='npm config set registry https://npm.artifactory.homedepot.com/artifactory/api/npm/npm/ && npm login && npm-ssl-false'
+
+## typora
+alias typora="open -a typora"
+
+## show/hide files hidden files in macOS
+alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
