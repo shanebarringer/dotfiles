@@ -82,7 +82,7 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 if [ -f '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 
 # Sets up Github Host as default for work purposes
-export GITHUB_HOST=github.com
+export GITHUB_HOST=github.homedepot.com
 
 # Aliases
 ## Aliasing hub to git
