@@ -17,6 +17,7 @@ source $ZSH/oh-my-zsh.sh
 DISABLE_AUTO_UPDATE=true
 
 # Sets up antibody
+export ANTIBODY_HOME=~/Library/antibody
 
 ## define custom plugin directory
 export ZSH_CUSTOM=/Users/${USER}/.oh-my-zsh/custom
@@ -41,9 +42,9 @@ antibody bundle "
   ${ZSH_CUSTOM}/plugins/zsh-brew-services
   ${ZSH_CUSTOM}/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
   ${ZSH_CUSTOM}/plugins/buffalo
-" > ~/.zsh_plugins.sh
+" > ${ANTIBODY_HOME}/.zsh_plugins.sh
 
-source ~/.zsh_plugins.sh
+source ${ANTIBODY_HOME}/.zsh_plugins.sh
 
 # path to rbenv
 export PATH="/usr/local/sbin:$HOME/.rbenv/bin:$PATH"
