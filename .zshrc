@@ -83,8 +83,6 @@ fpath=(/usr/local/share/zsh-completions $fpath)
 # updates PATH for the Google Cloud SDK
 if [ -f '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc'; fi
 
-# Sets up Github Host as default for work purposes
-export GITHUB_HOST=github.homedepot.com
 
 # Aliases
 ## Aliasing hub to git
@@ -93,9 +91,9 @@ eval "$(hub alias -s)"
 ## GitHub personal
 alias gitmeHome='git config user.email shane.barringer@outlook.com'
 alias homeHost='GITHUB_HOST=github.com'
+
 ## GitHub work
-alias gitmeWork='git config user.email shane_barringer@homedepot.com'
-alias workHost='GITHUB_HOST=github.homedepot.com'
+
 
 ## npm
 ### npm ssl
@@ -106,7 +104,7 @@ alias npm-ssl-false='npm config set strict-ssl false && yarn config set strict-s
 alias npm-public='npm config set registry https://registry.npmjs.org && npm login'
 
 ### npm work
-alias npm-work='npm config set registry https://npm.artifactory.homedepot.com/artifactory/api/npm/npm/ && npm login && npm-ssl-false'
+
 
 ## typora
 alias typora="open -a typora"
