@@ -12,7 +12,6 @@ COMPLETION_WAITING_DOTS="true"
 # source oh-my-zsh config
 source $ZSH/oh-my-zsh.sh
 
-
 ## Turn off oh-my-zsh updates, let antibody handle them instead
 DISABLE_AUTO_UPDATE=true
 
@@ -35,10 +34,7 @@ antibody bundle "
   ${ZSH}/plugins/golang
   ${ZSH_CUSTOM}/plugins/zsh-bash 
   ${ZSH_CUSTOM}/plugins/zsh-you-should-use
-  ${ZSH_CUSTOM}/plugins/yadm-zsh
-  ${ZSH_CUSTOM}/plugins/fast-syntax-highlighting 
   ${ZSH_CUSTOM}/plugins/zsh-256color 
-  ${ZSH_CUSTOM}/plugins/cf
   ${ZSH_CUSTOM}/plugins/zsh-brew-services
   ${ZSH_CUSTOM}/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
   ${ZSH_CUSTOM}/plugins/buffalo
@@ -80,20 +76,14 @@ export PATH="$PATH:$GOPATH/bin"
 # Enable zsh completions
 fpath=(/usr/local/share/zsh-completions $fpath)
 
-# updates PATH for the Google Cloud SDK
-if [ -f '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc' ]; then source '/Users/mxb5594/Downloads/google-cloud-sdk/path.zsh.inc'; fi
-
 
 # Aliases
 ## Aliasing hub to git
 eval "$(hub alias -s)"
 
 ## GitHub personal
-alias gitmeHome='git config user.email shane.barringer@outlook.com'
+alias gitMeHome='git config user.email shane.barringer@outlook.com'
 alias homeHost='GITHUB_HOST=github.com'
-
-## GitHub work
-
 
 ## npm
 ### npm ssl
@@ -103,12 +93,9 @@ alias npm-ssl-false='npm config set strict-ssl false && yarn config set strict-s
 ### npm public
 alias npm-public='npm config set registry https://registry.npmjs.org && npm login'
 
-### npm work
-
-
 ## typora
 alias typora="open -a typora"
 
 ## show/hide files hidden files in macOS
-alias show="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
-alias hide="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
+alias showFiles="defaults write com.apple.finder AppleShowAllFiles -bool true && killall Finder"
+alias hideFiles="defaults write com.apple.finder AppleShowAllFiles -bool false && killall Finder"
