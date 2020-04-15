@@ -1,4 +1,7 @@
 # Ignore non-dotfiles by default.
+*
+
+# Ignore dotfiles by default
 .*
 
 ## Allow the following files/directories
