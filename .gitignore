@@ -1,1 +1,12 @@
-.atom/packages/*
+# Ignore non-dotfiles by default.
+.*
+
+## Allow the following files/directories
+!.config
+!.gemrc
+!.gitignore
+!.irbrc
+!.zsh_plugins.sh
+!.zshrc
+!Brewfile
+!bootstrap.sh
