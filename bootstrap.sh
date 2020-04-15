@@ -28,8 +28,3 @@ sudo chown -R ${USER} .oh-my-zsh .zsh*
 
 echo "Changing Shell to ZSH"
 chsh -s $(which zsh)
-
-# Set macOS preferences
-# We will run this last because this will reload the shell
-echo "Updating macOS settings"
-source .macos
