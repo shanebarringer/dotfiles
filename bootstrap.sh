@@ -28,3 +28,16 @@ sudo chown -R ${USER} .oh-my-zsh .zsh*
 
 echo "Changing Shell to ZSH"
 chsh -s $(which zsh)
+
+# Setup antibody and add custom plugins
+mkdir ~/Library/antibody
+
+export ANTIBODY_HOME=~/Library/antibody
+export ZSH_CUSTOM=/Users/${USER}/.oh-my-zsh/custom
+
+git clone https://github.com/chrissicool/zsh-bash $ZSH_CUSTOM/plugins/zsh-bash
+git clone https://github.com/MichaelAquilina/zsh-you-should-use.git $ZSH_CUSTOM/plugins/you-should-use
+git clone https://github.com/chrissicool/zsh-256color $ZSH_CUSTOM/plugins/zsh-256color
+git clone https://github.com/vasyharan/zsh-brew-services.git $ZSH_CUSTOM/plugins/zsh-brew-services
+git clone https://github.com/1995parham/buffalo.zsh ~/.oh-my-zsh/custom/plugins/buffalo
+git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions
