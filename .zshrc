@@ -35,7 +35,6 @@ antibody bundle "
   ${ZSH_CUSTOM}/plugins/zsh-bash 
   ${ZSH_CUSTOM}/plugins/zsh-you-should-use
   ${ZSH_CUSTOM}/plugins/zsh-256color 
-  ${ZSH_CUSTOM}/plugins/zsh-brew-services
   ${ZSH_CUSTOM}/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh
   ${ZSH_CUSTOM}/plugins/buffalo
 " > ${ANTIBODY_HOME}/.zsh_plugins.sh
